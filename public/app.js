@@ -64,4 +64,10 @@ $(document).ready(() => {
      $('#more3').toggleClass('hidden')
      $('#less3').toggleClass('hidden')
    })
+
+   $('#seeMore4').click(function() {
+     $('#extraContent4').toggleClass('hidden')
+     $('#more4').toggleClass('hidden')
+     $('#less4').toggleClass('hidden')
+   })
 });

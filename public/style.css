@@ -51,12 +51,33 @@ h4 {
 }
 
 .deadlineDate {
-  margin-left: 450px;
   font-weight: 200;
+}
+
+#deadlineDate1 {
+  margin-left: 310px;
+}
+
+#deadlineDate2 {
+  margin-left: 250px;
+}
+
+#deadlineDate3 {
+  margin-left: 210px;
+}
+
+#deadlineDate4 {
+  margin-left: 450px;
 }
 
 .deadlineName {
   margin-left: 45px;
+}
+
+li {
+  font-size: .8em;
+  margin-left: 25px;
+  text-align: left;
 }
 
 aside {
@@ -79,8 +100,6 @@ form span {
 aside p {
   text-align: center;
 }
-
-
 
 .formTextBox, aside form button {
   border: none;
@@ -157,6 +176,7 @@ nav a {
   background-color: white;
   height: 20px;
   width: 20px;
+  margin-bottom: -2.5px;
 }
 
 .checkboxes:checked {
