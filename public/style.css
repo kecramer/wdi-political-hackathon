@@ -156,11 +156,12 @@ div * {
 nav {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 nav a {
   padding: 10px 20px 10px 20px;
-  border: 2px solid grey;
+  border: 2px solid #022E61;
   border-radius: 5px;
   font-size: 1.3em;
   text-decoration: none;
