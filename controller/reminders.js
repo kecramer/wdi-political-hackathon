@@ -22,8 +22,10 @@ const create = (req, res) => {
 			body: {
 				email_address: email,
 				status_if_new: 'subscribed',
-				fname: 'John',
-				lname: 'Doe'
+				merge_fields: {
+					FNAME: req.query.fname || '',
+					LNAME: req.query.lname || '',
+				},
 			}
 		}, (err, result) => {
 			if(err) {console.log(err);}
@@ -39,8 +41,10 @@ const create = (req, res) => {
 			body: {
 				email_address: email,
 				status_if_new: 'subscribed',
-				fname: 'John',
-				lname: 'Doe'
+				merge_fields: {
+					FNAME: req.query.fname || '',
+					LNAME: req.query.lname || '',
+				},
 			}
 		}, (err, result) => {
 			if(err) {console.log(err);}
@@ -56,8 +60,10 @@ const create = (req, res) => {
 			body: {
 				email_address: email,
 				status_if_new: 'subscribed',
-				fname: 'John',
-				lname: 'Doe'
+				merge_fields: {
+					FNAME: req.query.fname || '',
+					LNAME: req.query.lname || '',
+				},
 			}
 		}, (err, result) => {
 			if(err) {console.log(err);}
