@@ -27,7 +27,7 @@ $(document).ready(() => {
       let email = el.form_elem.text_email.val() || '';
 
       if(!email || email.indexOf('@') == -1) {
-         //User didn't specify an email address!
+         el.form_elem.text_email.css('border', '1px solid red');
       }
 
       if(email && (registrationReminders || voteByMailReminders || voteReminders)) {
@@ -39,6 +39,7 @@ $(document).ready(() => {
                el.form_elem.text_fname.val('');
                el.form_elem.text_lname.val('');
                el.form_elem.text_email.val('');
+               el.form_elem.text_email.css('border', '');
             },
             error: () => {
                console.log('had problems sending request to server');
