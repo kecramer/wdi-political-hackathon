@@ -1,12 +1,11 @@
 const express = require('express'),
-      db = require('./model'),
       controller = require('./controller');
 
 const app = express();
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-	res.sendFile('view/index.html', {root: __dirname});
+	res.sendFile('views/index.html', {root: __dirname});
 });
 
 app.post('/reminder/', controller.reminder.create);
