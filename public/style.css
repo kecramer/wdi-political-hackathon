@@ -1,19 +1,20 @@
 body {
   box-sizing: border-box;
   margin: 0;
+  font-family: "Arial", sans-serif;
 }
 
 header {
-  background-color: blue;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  font-family: "Arial Black", sans-serif;
+  padding-left: 50px;
 }
 
 h1 {
-  text-align: left;
-  font-family: sans-serif;
-  margin-left: 20px;
+  color: #022E61;
+}
+
+header h2 {
+  color: #BB0909;
 }
 
 #primaryContent {
@@ -23,18 +24,18 @@ h1 {
 
 main {
   flex-basis: 60%;
-  border: 1px solid red;
   text-align: center;
+}
+
+main h2 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 200;
 }
 
 aside {
   flex-basis: 30%;
-  border: 1px solid red;
   background-color: rgba(211,211,211,.5)
-}
-
-main div {
-  border-bottom: 2px solid red;
 }
 
 form span {
