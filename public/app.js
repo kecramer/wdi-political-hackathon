@@ -14,7 +14,7 @@ $(document).ready(() => {
       let lname = $('input[name=\'lname\']').val() || '';
       let email = $('input[name=\'emailaddress\']').val() || '';
 
-      if(!email) {
+      if(!email || email.indexOf('@') == -1) {
          //User didn't specify an email address!
       }
 
