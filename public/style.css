@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-family: "Arial", sans-serif;
 }
+/* Header styles */
 
 header {
   font-family: "Arial Black", sans-serif;
@@ -17,9 +18,17 @@ header h2 {
   color: #BB0909;
 }
 
+/* Body Styles */
+
+
 #primaryContent {
   display: flex;
   justify-content: space-around;
+}
+
+hr {
+  color: #9B9B9B;
+  margin-left: 68px;
 }
 
 main {
@@ -31,11 +40,44 @@ main h2 {
   text-transform: uppercase;
   font-style: italic;
   font-weight: 200;
+  text-align: left;
+  margin-left: 70px;
+}
+
+h4 {
+  font-size: 1.5em;
+  margin-top: .8em;
+  font-weight: 200;
+}
+
+.deadlineDate {
+  margin-left: 475px;
+  font-weight: 200;
+}
+
+.deadlineName {
+  margin-left: 45px;
 }
 
 aside {
-  flex-basis: 30%;
-  background-color: rgba(211,211,211,.5)
+  flex-basis: 25%;
+  background-color: #F5F5F5;
+  padding-left: 2em;
+}
+
+aside h3 {
+  font-family: "Arial", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 300;
+}
+
+form span {
+  font-size: 1.25em;
+}
+
+aside p {
+  text-align: center;
 }
 
 form span {
@@ -44,18 +86,29 @@ form span {
 
 div * {
   display: inline-block;
-  border: 1px solid green;
 }
 
 .deadlineInfoBlock {
   display: flex;
 }
 
+.deadlineInfoBlock a {
+  margin-top: 20px;
+}
+
 nav {
   text-align: center;
+  margin-top: 30px;
 }
 
 nav a {
   padding: 10px 20px 10px 20px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  font-size: 1.3em;
+  text-decoration: none;
+}
 
+.hidden {
+  display: none;
 }

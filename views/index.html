@@ -15,35 +15,54 @@
   <section id="primaryContent">
     <main>
       <h2>Deadlines</h2>
+      <hr>
       <div class="deadlineInfoBlock">
         <a href="#"><img src="../public/images/calendar.png"></a>
-        <h4>Registration</h4>
-        <h4>May 21</h4>
-        <a href="#">see more</a>
+        <h4 class="deadlineName">Registration</h4>
+        <h4 class="deadlineDate">May 21</h4>
       </div>
+      <ul class="hidden">
+        <li>Info 1</li>
+        <li>Info 2</li>
+        <li>Info 3</li>
+      </ul>
+      <button>see more</button>
+      <hr>
       <div class="deadlineInfoBlock">
         <a href="#"><img src="../public/images/calendar.png"></a>
-        <h4>Vote By Mail</h4>
-        <h4>June 5</h4>
-        <a href="#">see more</a>
+        <h4 class="deadlineName">Vote By Mail</h4>
+        <h4 class="deadlineDate">June 5</h4>
       </div>
+      <ul class="hidden">
+        <li>Info 1</li>
+        <li>Info 2</li>
+        <li>Info 3</li>
+      </ul>
+      <button>see more</button>
+      <hr>
       <div class="deadlineInfoBlock">
         <a href="#"><img src="../public/images/calendar.png"></a>
-        <h4>Election Day</h4>
-        <h4>June 5</h4>
-        <a href="#">see more</a>
+        <h4 class="deadlineName">Election Day</h4>
+        <h4 class="deadlineDate">June 5</h4>
       </div>
-      <a href="#">See all deadlines</a>
+      <ul class="hidden">
+        <li>Info 1</li>
+        <li>Info 2</li>
+        <li>Info 3</li>
+      </ul>
+      <button>see more</button>
+      <hr>
     </main>
     <aside>
       <h3>Get Email Reminders</h3>
+      <p>Sign up to receive reminders about upcoming deadlines.</p>
       <form class="" action="index.html" method="post">
         <span><input type="checkbox" name="registration" value="true"> Registration</span>
         <span><input type="checkbox" name="mailvote" value="true"> Vote By Mail</span>
         <span><input type="checkbox" name="vote" value="true"> Vote</span>
         <span><input type="text" name="fname" value="" placeholder="First Name"></span>
         <span><input type="text" name="lname" value="" placeholder="Last Name"></span>
-        <span><input type="email" name="emailaddress" value="" placeholder="Email Address"></span>
+        <span><input type="email" name="emailaddress" value="" placeholder="youremail@email.com"></span>
         <button type="submit" name="">Submit</button>
       </form>
     </aside>
