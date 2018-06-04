@@ -153,6 +153,10 @@ div * {
   margin-top: 20px;
 }
 
+#firstNamer {
+  margin-top: 15px;
+}
+
 nav {
   text-align: center;
   margin-top: 30px;
@@ -206,4 +210,15 @@ nav a:hover {
   background-color: #9B9B9B;
   height: 20px;
   width: 20px;
+}
+
+footer {
+  height: 60px;
+  color: white;
+  background-color: #022E61;
+}
+
+footer p {
+  padding-top: 20px;
+  padding-left: 10px;
 }

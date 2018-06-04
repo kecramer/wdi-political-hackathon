@@ -3,9 +3,10 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/checkmark.ico">
   <script src="jquery-3.3.1.js" charset="utf-8"></script>
   <script src="app.js" charset="utf-8" defer></script>
-  <title></title>
+  <title>SF Election Deadlines</title>
 </head>
 <body>
   <header>
@@ -17,7 +18,7 @@
       <h2>Deadlines</h2>
       <hr>
       <div class="deadlineInfoBlock">
-        <a href="#"><img src="images/calendar.png"></a>
+        <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=NGgzODVsMjZvMG9ra3I2YjJqOTgzODJsb3EgY3JhbWVzQG0&tmsrc=crames%40gmail.com"><img src="images/calendar.png"></a>
         <h4 class="deadlineName">City Hall Voting Center Opens</h4>
         <h4 class="deadlineDate" id="deadlineDate1">May 7</h4>
       </div>
@@ -27,7 +28,7 @@
       <button class="seeMore" id="seeMore1">see <span id="more1">more</span><span class="hidden" id="less1">less</span></button>
       <hr>
       <div class="deadlineInfoBlock">
-        <a href="#"><img src="images/calendar.png"></a>
+        <a href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MGxwczI3c2VmdG9jcDY3djNlOThpZDNsMDUgY3JhbWVzQG0&tmsrc=crames%40gmail.com"><img src="images/calendar.png"></a>
         <h4 class="deadlineName">Deadline to Register or Re-Register</h4>
         <h4 class="deadlineDate" id="deadlineDate2">May 21</h4>
       </div>
@@ -37,7 +38,7 @@
       <button class="seeMore" id="seeMore2">see <span id="more2">more</span><span class="hidden" id="less2">less</span></button>
       <hr>
       <div class="deadlineInfoBlock">
-        <a href="#"><img src="images/calendar.png"></a>
+        <a href="https://calendar.google.com/calendar/r/eventedit/copy/NjdycGVmNXNvZDNhYnNjdmhzdHFkbG84dTUgY3JhbWVzQG0/YWFyb24uaG9yb3dpdHozQGdtYWlsLmNvbQ?sf=true&output=xml"><img src="images/calendar.png"></a>
         <h4 class="deadlineName">Last Day to Request Vote-By-Mail Ballot</h4>
         <h4 class="deadlineDate" id="deadlineDate3">May 29</h4>
       </div>
@@ -65,10 +66,10 @@
       <h3>Get Email Reminders</h3>
       <p>Sign up to receive reminders about upcoming deadlines.</p>
       <form class="" action="index.html" method="post" id="remindMeForm">
-        <span><input type="checkbox" name="registration" value="true" class="checkboxes"> Registration</span>
+        <span><input type="checkbox" name="registration" value="true" class="checkboxes"> Register to Vote</span>
         <span><input type="checkbox" name="mailvote" value="true" class="checkboxes"> Vote By Mail</span>
-        <span><input type="checkbox" name="vote" value="true" class="checkboxes"> Vote</span>
-        <span><input type="text" name="fname" value="" placeholder="First Name" class="formTextBox"></span>
+        <span><input type="checkbox" name="vote" value="true" class="checkboxes"> Election Day</span>
+        <span><input type="text" name="fname" value="" placeholder="First Name" class="formTextBox" id="firstNamer"></span>
         <span><input type="text" name="lname" value="" placeholder="Last Name" class="formTextBox"></span>
         <span><input type="email" name="emailaddress" value="" placeholder="youremail@email.com" class="formTextBox"></span>
         <button type="submit" name="">Submit</button>
@@ -81,6 +82,7 @@
     <a href="http://votersedge.org/ca" target="_blank">General Ballot Info</a>
   </nav>
   <footer>
+    <p>&copy;2018 Aaron, Ben, Elina, Kevin, Ying</p>
   </footer>
 </body>
 </html>
