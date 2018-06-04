@@ -12,6 +12,8 @@ header {
 
 h1 {
   color: #022E61;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 header h2 {
@@ -55,19 +57,19 @@ h4 {
 }
 
 #deadlineDate1 {
-  margin-left: 310px;
+  margin-left: 315px;
 }
 
 #deadlineDate2 {
-  margin-left: 250px;
+  margin-left: 258px;
 }
 
 #deadlineDate3 {
-  margin-left: 210px;
+  margin-left: 220px;
 }
 
 #deadlineDate4 {
-  margin-left: 450px;
+  margin-left: 455px;
 }
 
 .deadlineName {
@@ -119,6 +121,10 @@ aside form button {
   font-size: .9em;
 }
 
+aside form button:hover {
+  cursor: pointer;
+}
+
 .formTextBox {
     padding-left: 3px;
 }
@@ -159,6 +165,15 @@ nav a {
   font-size: 1.3em;
   text-decoration: none;
   border-top: 5px solid #022E61;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  border: 2px solid #022E61;
+  border-top: 5px solid #022E61;
+  background-color: #022E61;
+  color: white;
 }
 
 .hidden {
@@ -177,6 +192,10 @@ nav a {
   height: 20px;
   width: 20px;
   margin-bottom: -2.5px;
+}
+
+.checkboxes:hover {
+  cursor: pointer;
 }
 
 .checkboxes:checked {
