@@ -45,13 +45,13 @@ main h2 {
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: .8em;
   font-weight: 200;
 }
 
 .deadlineDate {
-  margin-left: 475px;
+  margin-left: 450px;
   font-weight: 200;
 }
 
@@ -80,8 +80,40 @@ aside p {
   text-align: center;
 }
 
+
+
+.formTextBox, aside form button {
+  border: none;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  font-size: .8em;
+}
+
+aside form button {
+  color: white;
+  background-color: #BB0909;
+  padding: 7px 20px 7px 20px;
+  font-size: .9em;
+}
+
+.formTextBox {
+    padding-left: 3px;
+}
+
 form span {
   display: block;
+}
+
+.seeMore {
+  border: none;
+}
+
+.seeMore:hover {
+  cursor: pointer;
 }
 
 div * {
@@ -107,6 +139,7 @@ nav a {
   border-radius: 5px;
   font-size: 1.3em;
   text-decoration: none;
+  border-top: 5px solid #022E61;
 }
 
 .hidden {
