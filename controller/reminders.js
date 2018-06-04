@@ -15,6 +15,7 @@ const create = (req, res) => {
             res.sendStatus(204);
          })
       }
+      res.sendStatus(200);
    })
 };
 
