@@ -1,5 +1,4 @@
 const express = require('express'),
-      db = require('./model'),
       controller = require('./controller');
 
 const app = express();
