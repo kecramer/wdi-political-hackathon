@@ -31,4 +31,22 @@ $(document).ready(() => {
          })
       }
    })
+
+   $('#seeMore1').click(function() {
+     $('#extraContent1').toggleClass('hidden')
+     $('#more1').toggleClass('hidden')
+     $('#less1').toggleClass('hidden')
+   })
+
+   $('#seeMore2').click(function() {
+     $('#extraContent2').toggleClass('hidden')
+     $('#more2').toggleClass('hidden')
+     $('#less2').toggleClass('hidden')
+   })
+
+   $('#seeMore3').click(function() {
+     $('#extraContent3').toggleClass('hidden')
+     $('#more3').toggleClass('hidden')
+     $('#less3').toggleClass('hidden')
+   })
 });

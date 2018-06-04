@@ -145,3 +145,25 @@ nav a {
 .hidden {
   display: none;
 }
+
+.extraContent {
+  list-style-type: none;
+}
+
+.checkboxes {
+  -webkit-appearance: none;
+  border: 1px solid #9B9B9B;
+  border-radius: 2px;
+  background-color: white;
+  height: 20px;
+  width: 20px;
+}
+
+.checkboxes:checked {
+  -webkit-appearance: none;
+  border: 1px solid #9B9B9B;
+  border-radius: 2px;
+  background-color: #9B9B9B;
+  height: 20px;
+  width: 20px;
+}

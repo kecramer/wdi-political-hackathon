@@ -10,7 +10,7 @@
 <body>
   <header>
     <h1>SF Election Deadlines</h1>
-    <h2>Key Election Dates and Deadlines for San Francisco Voters</h2>
+    <h2>Key Election Information for San Francisco Voters</h2>
   </header>
   <section id="primaryContent">
     <main>
@@ -21,45 +21,45 @@
         <h4 class="deadlineName">Registration</h4>
         <h4 class="deadlineDate">May 21</h4>
       </div>
-      <ul class="hidden" id="extraContent1">
+      <ul class="hidden extraContent" id="extraContent1">
         <li>Info 1</li>
         <li>Info 2</li>
         <li>Info 3</li>
       </ul>
-      <button class="seeMore" id="seeMore1">see more</button>
+      <button class="seeMore" id="seeMore1">see <span id="more1">more</span><span class="hidden" id="less1">less</span></button>
       <hr>
       <div class="deadlineInfoBlock">
         <a href="#"><img src="images/calendar.png"></a>
         <h4 class="deadlineName">Vote By Mail</h4>
         <h4 class="deadlineDate">June 5</h4>
       </div>
-      <ul class="hidden" id="extraContent2">
+      <ul class="hidden extraContent" id="extraContent2">
         <li>Info 1</li>
         <li>Info 2</li>
         <li>Info 3</li>
       </ul>
-      <button class="seeMore" id="seeMore2">see more</button>
+      <button class="seeMore" id="seeMore2">see <span id="more2">more</span><span class="hidden" id="less2">less</span></button>
       <hr>
       <div class="deadlineInfoBlock">
         <a href="#"><img src="images/calendar.png"></a>
         <h4 class="deadlineName">Election Day</h4>
         <h4 class="deadlineDate">June 5</h4>
       </div>
-      <ul class="hidden" id="extraContent3">
+      <ul class="hidden extraContent" id="extraContent3">
         <li>Info 1</li>
         <li>Info 2</li>
         <li>Info 3</li>
       </ul>
-      <button class="seeMore" id="seeMore3">see more</button>
+      <button class="seeMore" id="seeMore3">see <span id="more3">more</span><span class="hidden" id="less3">less</span></button>
       <hr>
     </main>
     <aside>
       <h3>Get Email Reminders</h3>
       <p>Sign up to receive reminders about upcoming deadlines.</p>
       <form class="" action="index.html" method="post" id="remindMeForm">
-        <span><input type="checkbox" name="registration" value="true"> Registration</span>
-        <span><input type="checkbox" name="mailvote" value="true"> Vote By Mail</span>
-        <span><input type="checkbox" name="vote" value="true"> Vote</span>
+        <span><input type="checkbox" name="registration" value="true" class="checkboxes"> Registration</span>
+        <span><input type="checkbox" name="mailvote" value="true" class="checkboxes"> Vote By Mail</span>
+        <span><input type="checkbox" name="vote" value="true" class="checkboxes"> Vote</span>
         <span><input type="text" name="fname" value="" placeholder="First Name" class="formTextBox"></span>
         <span><input type="text" name="lname" value="" placeholder="Last Name" class="formTextBox"></span>
         <span><input type="email" name="emailaddress" value="" placeholder="youremail@email.com" class="formTextBox"></span>
